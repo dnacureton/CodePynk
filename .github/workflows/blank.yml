@@ -1,6 +1,7 @@
 # This is a basic workflow to help you get started with Actions
 
 name: CI
+# Lima added this comment right here 
 
 # Controls when the workflow will run
 on:
@@ -9,6 +10,7 @@ on:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
+# Can you see this 
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
