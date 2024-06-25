@@ -1,0 +1,52 @@
+
+body {
+    margin: 0;
+    line-height: normal;
+}
+
+
+:root {
+    
+    /* fonts */
+    --font-poppins: Poppins;
+    --font-inter: Inter;
+    
+    /* font sizes */
+    --font-size-7xs: 6px;
+    --font-size-xs: 12px;
+    
+    /* Colors */
+    --color-black: #000;
+    --color-whitesmoke: #eee;
+    --color-white: #fff;
+    --color-deepskyblue: #4baad8;
+    --color-dimgray: #6a6a6a;
+    --color-crimson: #e23744;
+    --magenta-magenta-6: #eb2f96;
+    --light-pink: #f484d4;
+    
+    /* Border radiuses */
+    --br-10xs: 3px;
+    --br-7xs: 6px;
+    
+}
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Inter:600|Poppins:400,700");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
