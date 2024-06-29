@@ -1,0 +1,389 @@
+.friend-updates {
+    position: relative;
+    width: 428px;
+    height: 926px;
+    background-color: #151521;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .friend-updates .iphone-x-or-newer {
+    position: absolute;
+    width: 435px;
+    height: 44px;
+    top: 0;
+    left: 0;
+  }
+  
+  .friend-updates .div {
+    position: relative;
+    height: 44px;
+  }
+  
+  .friend-updates .notch {
+    position: absolute;
+    width: 219px;
+    height: 28px;
+    top: 0;
+    left: 108px;
+  }
+  
+  .friend-updates .right-side {
+    position: absolute;
+    width: 67px;
+    height: 11px;
+    top: 17px;
+    left: 354px;
+  }
+  
+  .friend-updates .left-side {
+    position: absolute;
+    width: 54px;
+    height: 21px;
+    top: 12px;
+    left: 21px;
+    background-image: url(https://c.animaapp.com/VkCDUYrf/img/time-4.svg);
+    background-size: 100% 100%;
+  }
+  
+  .friend-updates .frame {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 42px;
+    position: absolute;
+    top: 100px;
+    left: 18px;
+  }
+  
+  .friend-updates .text-wrapper {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Inter", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .friend-updates .overlap {
+    position: absolute;
+    width: 428px;
+    height: 58px;
+    top: 868px;
+    left: 0;
+    background-image: url(https://c.animaapp.com/VkCDUYrf/img/mask-group-15@2x.png);
+    background-size: 100% 100%;
+  }
+  
+  .friend-updates .frame-2 {
+    display: inline-flex;
+    align-items: center;
+    gap: 69px;
+    position: relative;
+    top: 11px;
+    left: 21px;
+  }
+  
+  .friend-updates .img {
+    position: relative;
+    width: 18px;
+    height: 18px;
+  }
+  
+  .friend-updates .vector {
+    position: relative;
+    width: 15px;
+    height: 13.48px;
+  }
+  
+  .friend-updates .frame-3 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .friend-updates .line {
+    position: relative;
+    width: 38px;
+    height: 3px;
+  }
+  
+  .friend-updates .metro-boomin {
+    position: absolute;
+    width: 358px;
+    height: 152px;
+    top: 697px;
+    left: 42px;
+  }
+  
+  .friend-updates .overlap-group {
+    position: relative;
+    width: 356px;
+    height: 152px;
+    border-radius: 6px;
+    background: linear-gradient(180deg, rgb(211.25, 211.25, 211.25) 0%, rgb(254, 254, 254) 100%);
+    background-image: url(https://c.animaapp.com/VkCDUYrf/img/mask-group-15@2x.png);
+    background-size: 100% 100%;
+  }
+  
+  .friend-updates .mask-group {
+    position: absolute;
+    width: 356px;
+    height: 152px;
+    top: 0;
+    left: 0;
+  }
+  
+  .friend-updates .group {
+    position: absolute;
+    width: 22px;
+    height: 17px;
+    top: 6px;
+    left: 322px;
+    background-color: #ffffff;
+    border-radius: 10.99px/8.51px;
+  }
+  
+  .friend-updates .overlap-group-2 {
+    position: relative;
+    width: 12px;
+    height: 11px;
+    top: 3px;
+    left: 4px;
+  }
+  
+  .friend-updates .group-2 {
+    position: absolute;
+    width: 12px;
+    height: 10px;
+    top: 1px;
+    left: 0;
+  }
+  
+  .friend-updates .ellipse {
+    width: 5px;
+    height: 4px;
+    left: 7px;
+    background-color: #e23744;
+    border-radius: 2.38px/1.84px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .friend-updates .text-wrapper-2 {
+    position: absolute;
+    width: 50px;
+    top: 9px;
+    left: 264px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 400;
+    color: #6a6a6a;
+    font-size: 6px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .friend-updates .frame-4 {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 25px;
+    position: absolute;
+    top: 48px;
+    left: 31px;
+  }
+  
+  .friend-updates .ellipse-2 {
+    position: relative;
+    width: 108.41px;
+    height: 83.94px;
+    object-fit: cover;
+  }
+  
+  .friend-updates .group-3 {
+    position: relative;
+    width: 165.69px;
+    height: 83.94px;
+    margin-right: -6px;
+  }
+  
+  .friend-updates .text-wrapper-3 {
+    position: absolute;
+    width: 122px;
+    top: 0;
+    left: 1px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .friend-updates .text-wrapper-4 {
+    position: absolute;
+    width: 42px;
+    top: 23px;
+    left: 1px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 400;
+    color: #e23744;
+    font-size: 6px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .friend-updates .p {
+    position: absolute;
+    width: 129px;
+    top: 35px;
+    left: 1px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 400;
+    color: #6a6a6a;
+    font-size: 6px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .friend-updates .overlap-group-wrapper {
+    position: absolute;
+    width: 75px;
+    height: 19px;
+    top: 65px;
+    left: 0;
+  }
+  
+  .friend-updates .div-wrapper {
+    position: relative;
+    width: 73px;
+    height: 19px;
+    background-color: #4baad7;
+    border-radius: 3px;
+  }
+  
+  .friend-updates .text-wrapper-5 {
+    position: absolute;
+    width: 32px;
+    top: 3px;
+    left: 21px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 6px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .friend-updates .overlap-wrapper {
+    position: absolute;
+    width: 75px;
+    height: 19px;
+    top: 65px;
+    left: 86px;
+  }
+  
+  .friend-updates .overlap-2 {
+    position: relative;
+    width: 73px;
+    height: 19px;
+    background-color: #eeeeee;
+    border-radius: 3px;
+  }
+  
+  .friend-updates .text-wrapper-6 {
+    position: absolute;
+    width: 28px;
+    top: 3px;
+    left: 23px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 6px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .friend-updates .drake-profile {
+    position: absolute;
+    width: 358px;
+    height: 152px;
+    top: 526px;
+    left: 40px;
+  }
+  
+  .friend-updates .overlap-3 {
+    position: relative;
+    width: 356px;
+    height: 152px;
+    border-radius: 6px;
+    background: linear-gradient(180deg, rgb(211.25, 211.25, 211.25) 0%, rgb(254, 254, 254) 100%);
+    background-image: url(https://c.animaapp.com/VkCDUYrf/img/mask-group-10.png);
+    background-size: 100% 100%;
+  }
+  
+  .friend-updates .group-4 {
+    position: absolute;
+    width: 293px;
+    height: 84px;
+    top: 48px;
+    left: 31px;
+  }
+  
+  .friend-updates .ellipse-3 {
+    width: 108px;
+    height: 84px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+  }
+  
+  .friend-updates .group-5 {
+    position: absolute;
+    width: 166px;
+    height: 84px;
+    top: 0;
+    left: 133px;
+  }
+  
+  .friend-updates .kendrick-profile {
+    position: absolute;
+    width: 358px;
+    height: 152px;
+    top: 353px;
+    left: 36px;
+  }
+  
+  .friend-updates .j-cole-profile {
+    position: absolute;
+    width: 358px;
+    height: 152px;
+    top: 180px;
+    left: 35px;
+  }
+  
+  .friend-updates .overlap-4 {
+    position: relative;
+    width: 356px;
+    height: 152px;
+    background-image: url(https://c.animaapp.com/VkCDUYrf/img/rectangle-1-1.png);
+    background-size: 100% 100%;
+  }
+  
+  .friend-updates .group-6 {
+    position: absolute;
+    width: 22px;
+    height: 17px;
+    top: 6px;
+    left: 322px;
+  }
+  
