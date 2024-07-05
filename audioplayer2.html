@@ -1,0 +1,149 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Player</title>
+    <!-- Link to  CSS file -->
+    <link rel="stylesheet" href="audioplayer.css"
+</head>
+<body>
+<main><h1> Playing Now</h1>
+     <h2>Not Like Us </h2>
+
+    <!-- Album art image -->
+    <div class="album art">
+             <img style="width: 299px; height: 308px" src="assets/image 5.jpg" />
+            </div>
+   
+             <!-- Navigation dots -->
+             <p>
+               <div style="justify-content: flex-start; align-items: flex-start; gap: 8px; display: inline-flex">
+                   <div style="width: 12px; height: 12px; background: rgba(217, 217, 217, 0.49); border-radius: 9999px"></div>
+                   <div style="width: 12px; height: 12px; background: #D9D9D9; border-radius: 9999px"></div>
+             </p>
+   
+  
+   
+   
+             <audio id="audio-player">
+               <source src="assets/Kendrick-Lamar-Not-Like-Us-sound-effect.mp3" type="audio/mp3">
+               Your browser does not support the audio element.
+           </audio>
+        <p>
+           <div class="button" onclick="togglePlayPause()">
+               <span id="play-pause-icon">▶️</span>
+           </div>
+        </p>
+       </div>
+   </div>
+   </div>
+   
+   <script>
+   let audioPlayer = document.getElementById('audio-player');
+   let playPauseButton = document.getElementById('play-pause-icon');
+   
+   function togglePlayPause() {
+       if (audioPlayer.paused) {
+           audioPlayer.play();
+           playPauseButton.textContent = '⏸️';
+       } else {
+           audioPlayer.pause();
+           playPauseButton.textContent = '▶️';
+       }
+   }
+   </script></main>
+
+</body>
+</html>
+        
+
+</p>
+
+
+            <!-- 
+            <div style="width: 387px; justify-content: flex-start; align-items: center; gap: 135px; display: inline-flex">
+                <div style="width: 10px; height: 18px; background: white"></div>
+                <div style="flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 8px; display: inline-flex">
+                    <div style="color: white; font-size: 16px; font-family: Inter; font-weight: 600; word-wrap: break-word">Playing Now</div>
+                </div>
+            </div>
+           Album art and navigation dots 
+            <div style="flex-direction: column; justify-content: flex-start; align-items: center; gap: 16px; display: flex">
+                <div style="flex-direction: column; justify-content: flex-start; align-items: center; gap: 80px; display: flex">
+                    <div style="flex-direction: column; justify-content: flex-start; align-items: center; gap: 36px; display: flex">
+                       
+                      Navigation dots -->
+                        <div style="justify-content: flex-start; align-items: flex-start; gap: 8px; display: inline-flex">
+                            <div style="width: 12px; height: 12px; background: rgba(217, 217, 217, 0.49); border-radius: 9999px"></div>
+                            <div style="width: 12px; height: 12px; background: #D9D9D9; border-radius: 9999px"></div>
+                        </div>
+                    </div>
+               
+                    <div style="flex-direction: column; justify-content: flex-start; align-items: center; gap: 32px; display: flex">
+                        <div style="flex-direction: column; justify-content: flex-start; align-items: flex-end; gap: 8px; display: flex">
+                            <div style="flex-direction: column; justify-content: flex-start; align-items: center; gap: 17px; display: flex">
+                                <div style="flex-direction: column; justify-content: flex-start; align-items: center; gap: 29px; display: flex">
+                                    <div style="justify-content: center; align-items: center; gap: 233px; display: inline-flex">
+                                        <!-- Song title and artist -->
+                                        <div style="flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
+                                          
+                                            <div style="justify-content: flex-start; align-items: flex-start; gap: 8px; display: inline-flex">
+                                                <div style="justify-content: center; align-items: center; gap: 8px; display: flex">
+                                                    <div style="color: white; font-size: 14px; font-family: Inter; font-weight: 400; line-height: 20px; word-wrap: break-word">Kendrick Lamar</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Favorite button -->
+                                        <div style="width: 28px; height: 28px; position: relative">
+                                            <div style="width: 22.63px; height: 18.78px; left: 2.57px; top: 4.67px; position: absolute; background: #F484D4"></div>
+                                        </div>
+                                    </div>
+                                    <!-- Progress bar container -->
+                                    <div style="width: 384px; height: 9px; position: relative">
+                                        <div style="width: 177px; height: 5px; left: 0px; top: 2px; position: absolute; background: #F484D4; border-radius: 16px"></div>
+                                        <div style="width: 205px; height: 3px; left: 179px; top: 3px; position: absolute; background: #8E8E8E; border-radius: 16px"></div>
+                                        <div style="width: 9px; height: 9px; left: 172px; top: 0px; position: absolute; background: #F484D4; border-radius: 9999px; border: 1px white solid"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Timestamps -->
+                            <div style="justify-content: flex-start; align-items: flex-start; gap: 338px; display: inline-flex">
+                                <div style="color: #fefeff; font-size: 11px; font-family: Inter; font-weight: 400; line-height: 13px; word-wrap: break-word">1:30</div>
+                                <div style="color: #fcfcfe; font-size: 11px; font-family: Inter; font-weight: 400; line-height: 13px; word-wrap: break-word">2:30</div>
+                            </div>
+                        </div>
+                        <!-- Box Model for Play Controls below
+                            
+                            
+                        <div style="justify-content: flex-start; align-items: center; gap: 38px; display: inline-flex">
+                        <img style="height: auto;" src="assets/Play Head.jpg"
+
+                            Rewind button 
+                            <div style="width: 17px; height: 14px; position: relative">
+                                <div style="width: 17px; height: 14px; left: 0px; top: 0px; position: absolute; background:#151521"></div>
+                            </div>
+
+                             Play/Pause button 
+                            <div style="width: 60px; height: 60px; position: relative">
+                                <div style="width: 60px; height: 60px; left: 0px; top: 0px; position: absolute; background: #F484D4"></div>
+                                <div style="width: 28.69px; height: 28.53px; left: 8.69px; top: 20.76px; position: absolute; transform: rotate(-27.82deg); transform-origin: 0 0; background: #151521"></div>
+                            </div>
+
+                            Forward button 
+                            <div style="width: 17px; height: 14px; position: relative">
+                                <div style="width: 17px; height: 14px; left: 0px; top: 0px; position: absolute; background: #151521"></div>
+                            -->
+                            </div>
+                    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+    
+</body>
+</html>
+ -->
