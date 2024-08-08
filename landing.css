@@ -1,0 +1,129 @@
+.image-1-icon {
+    width: 232px;
+    position: relative;
+    border-radius: 37px;
+    height: 262px;
+    object-fit: cover;
+}
+.logo-child {
+    width: 100px;
+    position: relative;
+    height: 100px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: none;
+}
+.soundpynk {
+    width: 352px;
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+}
+.sound-pynk-where {
+    white-space: nowrap; 
+    font-size: 24px;
+    font-weight: 600;
+    color: #1d1919;
+    display: inline-block;
+    text-align: center;
+}
+.soundpynk-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+}
+.landing-page-child {
+    width: 100px;
+    position: relative;
+    height: 100px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.music-3-1 {
+    width: 168px;
+    position: relative;
+    height: 168px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.landing-page {
+    width: 100%;
+    position: relative;
+    border-radius: 10px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.69), rgba(244, 132, 212, 0.69) 69.5%);
+    height: 926px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centering elements horizontally */
+    justify-content: center; /* Centering elements vertically */
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 27px;
+    color: #fff;
+    font-family: Poppins;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.landing-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.soundpynk {
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.sound-pynk-where {
+    white-space: nowrap; /* Prevents text from wrapping */
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-top: 0.5em;
+    text-align: center; /* Centering the text */
+}
+
+.start-button {
+    margin-top: 1em;
+    padding: 0.5em 1em;
+    font-size: 1em;
+    font-weight: 500;
+    color: #fff;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.69), rgba(244, 132, 212, 0.69) 69.5%); 
+    border: none;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+
+.start-button:hover {
+    background-color: rgba(244, 132, 212, 0.8);
+}
