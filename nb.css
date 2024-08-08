@@ -1,0 +1,11 @@
+.box {
+    width: 22px;
+    height: 1px;
+   }
+.box .line {
+    position: fixed;
+    width: 22px;
+    height: 3px;
+    top: 0;
+    left: 0;
+   }
