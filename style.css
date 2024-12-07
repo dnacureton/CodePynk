@@ -1,0 +1,252 @@
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #d044bd;
+}
+.landing{display: flex;
+width: 444px;
+height: 926px;
+padding: 314px 38px;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;}
+
+h1{
+    color: rgb(44, 198, 198);
+}
+
+border-radius: 10px;
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.69) 0%, rgba(244, 132, 212, 0.69) 69.5%); */
+
+.image-1-icon {
+    width: 130px;
+    position: relative;
+    border-radius: 25px;
+    height: 146.8px;
+    object-fit: cover;
+}
+.your-music-your {
+    width: 296px;
+    position: relative;
+    font-weight: 600;
+    display: inline-block;
+    height: 39px;
+    flex-shrink: 0;
+    text-shadow: 1px 0 0 #fff, 0 1px 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;
+}
+.image-1-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 18px;
+}
+.sign-in-to {
+    position: relative;
+    line-height: 36px;
+    font-weight: 800;
+}
+.headline {
+    height: 44px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: var(--text-3xl-leading-9-font-extrabold-size);
+    color: var(--gray-gray-1);
+    font-family: var(--text-sm-leading-5-font-medium);
+}
+.header {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-5xl);
+}
+.label {
+    position: relative;
+    line-height: 20px;
+    font-weight: 500;
+}
+.placeholder {
+    position: relative;
+    text-decoration: underline;
+    line-height: 24px;
+}
+.form-fieldstext-input {
+    align-self: stretch;
+    box-shadow: var(--shadow-sm);
+    border-radius: var(--br-7xs);
+    background-color: var(--gray-gray-1);
+    border: 1px solid var(--gray-300);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--padding-4xs) var(--padding-smi);
+    font-size: var(--font-size-base);
+}
+.input-with-labelmobile {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+}
+.form-fieldscheckbox-input {
+    width: 16px;
+    position: relative;
+    border-radius: 4px;
+    background-color: var(--gray-gray-1);
+    border: 1px solid var(--gray-300);
+    box-sizing: border-box;
+    height: 16px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.label2 {
+    position: relative;
+    line-height: 20px;
+}
+.checkboxesinput {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+}
+.sign-in-and-registrationtext {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: right;
+    color: var(--light-pink);
+}
+.supporting-inputs {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--gray-500);
+}
+.button {
+    align-self: stretch;
+    box-shadow: var(--shadow-sm);
+    border-radius: var(--br-7xs);
+    background: linear-gradient(90.06deg, #ff69b4, rgba(236, 156, 194, 0.51));
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-4xs) 17px;
+}
+.divider {
+    flex: 1;
+    position: relative;
+    background-color: var(--gray-300);
+    height: 1px;
+}
+.ribbon {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-5xs);
+    text-align: center;
+    color: var(--gray-500);
+}
+.group-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 8px;
+    background-color: var(--gray-gray-1);
+    border: 2px solid var(--gray-gray-3);
+    box-sizing: border-box;
+    width: 344px;
+    height: 55px;
+}
+.google-1-1 {
+    width: 24px;
+    position: relative;
+    height: 25px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.sign-in-with {
+    position: relative;
+    line-height: 24px;
+    font-weight: 500;
+}
+.google-1-1-parent {
+    position: absolute;
+    top: 15px;
+    left: 85px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+}
+.rectangle-parent {
+    width: 344px;
+    position: relative;
+    height: 55px;
+    text-align: center;
+    font-size: var(--font-size-base);
+    color: var(--gray-gray-8);
+    font-family: var(--font-roboto);
+}
+.card {
+    align-self: stretch;
+    filter: var(--shadow-base);
+    height: 453px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 32px 16px;
+    box-sizing: border-box;
+    gap: var(--gap-5xl);
+    text-align: left;
+    font-size: var(--text-sm-leading-5-font-medium-size);
+    color: var(--gray-gray-1);
+    font-family: var(--text-sm-leading-5-font-medium);
+}
+.simple-cardmobile {
+    position: absolute;
+    top: 70px;
+    left: 26px;
+    width: 376px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 48px 0px;
+    box-sizing: border-box;
+    gap: 16px;
+}
+.log-in {
+    width: 100%;
+    position: relative;
+    border-radius: 10px;
+    height: 926px;
+    overflow: hidden;
+    background-image: url('Log In .png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    text-align: center;
+    font-size: 24px;
+    color: #e023c4;
+    font-family: var(--font-poppins);
+}
+

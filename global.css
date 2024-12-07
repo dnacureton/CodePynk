@@ -1,0 +1,42 @@
+
+body {
+    margin: 0;
+    line-height: normal;
+}
+
+
+:root {
+    
+    /* fonts */
+    --font-roboto: Roboto;
+    --text-sm-leading-5-font-medium: Inter;
+    --font-poppins: Poppins;
+    
+    /* font sizes */
+    --font-size-base: 16px;
+    --text-sm-leading-5-font-medium-size: 14px;
+    --text-3xl-leading-9-font-extrabold-size: 30px;
+    
+    /* Colors */
+    --gray-gray-8: #455a64;
+    --gray-gray-1: #fff;
+    --gray-gray-3: #e4e8ef;
+    --gray-300: #d1d5db;
+    --gray-500: #6b7280;
+    --light-pink: #f484d4;
+    
+    /* Gaps */
+    --gap-5xl: 24px;
+    --gap-5xs: 8px;
+    
+    /* Paddings */
+    --padding-4xs: 9px;
+    --padding-smi: 13px;
+    
+    /* Border radiuses */
+    --br-7xs: 6px;
+    
+    /* Effects */
+    --shadow-base: drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.1)) drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.06));
+    --shadow-sm: 0px 1px 2px rgba(0, 0, 0, 0.05);
+}
